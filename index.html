@@ -1,0 +1,491 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lagasca's Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="icon" type="image/png" href="images/icon.png">
+  <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+</head>
+
+<body>
+    <div class="hamburger" id="hamburger">
+      ☰
+    </div>
+    <div class="overlay" id="overlay"></div>  
+  <div class="layout">
+
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="name-header">
+        <img src="images/icon.png" alt="icon" class="name-icon">
+        <h1>Michelle Lagasca</h1>
+      </div>
+
+      <div class="profile">
+        <img src="images/PortfolioPicture.png" alt="Michelle Lagasca" class="profile-pic">
+      </div>
+
+      <div class="description">
+        <p class="tagline-label">Specialization:</p>
+        <p class="tagline-main">UI/UX Designer & Front-End Developer</p>
+        <p> <br> </p>
+        <p class="tagline-label location">Based in:</p>
+        <p class="tagline-main">PUP – Quezon City</p>
+      </div>
+
+      <div class="social-lottie">
+        <a href="https://www.instagram.com/cosmich._/" target="_blank">
+          <lottie-player src="icons/instagram.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+        </a>
+
+        <a href="https://www.facebook.com/michelle.lagasca.980" target="_blank">
+          <lottie-player src="icons/facebook.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+        </a>
+
+        <a href="https://www.linkedin.com/in/michelle-lorraine-lagasca-3b72bb36b/" target="_blank">
+          <lottie-player src="icons/linkedin.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+        </a>
+
+        <a href="https://github.com/Michelle-Lagasca" target="_blank">
+          <lottie-player src="icons/github.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+        </a>
+      </div>
+
+      <div>
+        <a href="mailto:lagasca.michelle04@gmail.com" class="email-button">Connect with Me!</a>
+      </div>
+    </aside>
+
+
+    <!-- Main Scrollable Content -->
+    <main class="content">
+    <div class="scroll-area">
+      <nav class="nav">
+        <a href="#home" class="btn">Home</a>
+        <a href="#about" class="btn">About</a>
+        <a href="#portfolio" class="btn">Portfolio</a>
+        <a href="#resume" class="btn">Resume</a>
+        <a href="#contact" class="btn">Contact</a>
+      </nav>
+      
+      <!-- parallax sections -->
+      <section class="parallax home" id="home">
+        <div class="section-content">
+          <h1>I'm Michelle Lagasca</h1>
+          <p>Web Designer and Researcher.</p>
+        </div>
+      </section>
+
+      <section class="parallax about" id="about">
+        <video autoplay muted loop playsinline class="bg-video">
+            <source src="videos/aboutbg.mp4" type="video/mp4">
+        </video>
+        <div class="section-content">
+          <h2>About Me</h2>
+          <p>Click the cards!</p>
+        </div>
+        <div class="about-cards">
+          <div class="card" data-card="card1">
+            <img src="images/Card1.jpg" alt="">
+            <h3>I'm Michelle Lagasca</h3>
+            <p>Creative Developer & Student Leader</p>
+          </div>
+          <div class="card" data-card="card2">
+            <img src="images/Card4.jpg" alt="">
+            <h3>Organization Life</h3>
+            <p>Purpose. Growth. Integrity.</p>
+          </div>
+          <div class="card" data-card="card3">
+            <img src="images/Card5.jpg" alt="">
+            <h3>My Core Values</h3>
+            <p>Empowered by passion, guided by principles.</p>
+          </div>
+        </div>
+
+        <p class="about-video-caption">
+          I have always loved my creative side — not only in crafting digital experiences,
+          but also in theater and performing arts.
+        </p>
+        <video controls class="about-video">
+          <source src="videos/play.mp4" type="video/mp4">
+        </video>
+        <p class="about-video-caption">
+          Sa Loob ng Utak ni Juana by MUSA Teatro
+        </p>
+        <div class="popup-overlay" id="popup">
+          <div class="popup-card">
+            <span class="close-popup">&times;</span>
+            <div class="popup-content" id="popup-content">
+            </div>
+          </div>
+        </div>
+      </section>
+
+<section id="portfolio" class="parallax portfolio">
+  <div class="section-content">
+    <h2>Portfolio</h2>
+    <p>Here are few of my works as a FRONT END developer.</p>
+      <div class="masonry-gallery">
+  <figure>
+    <img src="images/portfolio1.png" alt="">
+    <figcaption>Medicine Reminder Application</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/portfolio3.png" alt="">
+    <figcaption>Expired Product Tracker System</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/portfolio4.png" alt="">
+    <figcaption>Hotel Management Booking System</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/portfolio5.png" alt="">
+    <figcaption>Hotel Management Booking System</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/portfolio6.png" alt="">
+    <figcaption>Medicine Reminder Application</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/portfolio7.png" alt="">
+    <figcaption>Medicine Reminder Application</figcaption>
+  </figure>
+
+  <figure>
+    <img src="images/portfolio2.png" alt="">
+    <figcaption>Expired Product Tracker System</figcaption>
+  </figure>
+</div>
+
+  </div>
+</section>
+
+
+<section class="resume" id="resume">
+  <h2>Resume</h2>
+  <div class="resume-group">
+    <h3 class="resume-section-title">Education</h3>
+    <div class="resume-list">
+
+      <div class="resume-item">
+        <div class="resume-left">
+          <span class="year">Present</span>
+          <h4>Polytechnic University of the Philippines – Quezon City</h4>
+          <p class="school">Bachelor of Science in Information Technology</p>
+        </div>
+        <div class="resume-right">
+          <ul>
+            <li>President’s Lister – First Year (1st & 2nd Sem)</li>
+            <li>Dean’s Lister – Second Year (1st & 2nd Sem)</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="resume-item">
+        <div class="resume-left">
+          <span class="year">2021 – 2023</span>
+          <h4>STI College of Marikina</h4>
+          <p class="school">ICT in Mobile App & Web Development</p>
+        </div>
+        <div class="resume-right">
+          <ul>
+            <li>With Honors</li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="resume-item">
+        <div class="resume-left">
+          <span class="year">2017 – 2021</span>
+          <h4>Valeriano E. Fugoso Memorial High School</h4>
+        </div>
+        <div class="resume-right">
+          <ul>
+            <li>Graduated With Honors</li>
+          </ul>
+        </div>
+      </div>
+
+    </div>
+
+
+    <!-- Organizations -->
+    <h3 class="resume-section-title">Organizational Involvement & Leadership</h3>
+    <div class="resume-two-col">
+
+      <div class="resume-pair">
+        <div class="left">2025–2026</div>
+        <div class="right"><strong>Executive Secretary for Strategic Affairs and Partnership</strong><br>PUP Microsoft Student Community</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2025–2026</div>
+        <div class="right"><strong>Secretary-General of CommITs</strong><br>CommITs</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2025</div>
+        <div class="right"><strong>Committee Member</strong><br>CommITs VP External Affairs</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2025–2026</div>
+        <div class="right"><strong>Peace Officer</strong><br>BSIT 3-2, PUPQC</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2025–2026</div>
+        <div class="right"><strong>Documentation Member</strong><br>Sinagtala Publication</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2022–2023</div>
+        <div class="right"><strong>President</strong><br>ICT Society Junior Club</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2021–2022</div>
+        <div class="right"><strong>Junior Secretary</strong><br>TechieSH Club</div>
+      </div>
+
+    </div>
+
+
+    <!-- Projects -->
+    <h3 class="resume-section-title">Projects & Event Participation</h3>
+    <div class="resume-two-col">
+
+      <div class="resume-pair">
+        <div class="left">2025</div>
+        <div class="right"><strong>Back-End & Database Developer</strong><br>Expiry Tracker System</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2023</div>
+        <div class="right"><strong>Front-End Developer</strong><br>Infositezy – SHS Expo Project</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2022</div>
+        <div class="right"><strong>Event Assistant</strong><br>Academic Halloween Event</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2021</div>
+        <div class="right"><strong>Co-Host</strong><br>Tech Learning Webinar</div>
+      </div>
+
+    </div>
+
+
+    <!-- Certifications -->
+    <h3 class="resume-section-title">Certifications</h3>
+    <div class="resume-two-col">
+
+      <div class="resume-pair">
+        <div class="left">2023</div>
+        <div class="right"><strong>Tesda NC II Certificate</strong><br>Contact Center Services</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2025</div>
+        <div class="right"><strong>Cybersecurity Webinar</strong><br>“Guard Your Clicks, Secure Your Future”</div>
+      </div>
+
+      <div class="resume-pair">
+        <div class="left">2025</div>
+        <div class="right"><strong>UI/UX Future Interfaces Webinar</strong><br>“Touch the Future”</div>
+      </div>
+    </div>
+    <div class="resume-download">
+    <a href="LAGASCA_Resume.pdf" download class="download-btn">Download Resume (PDF)</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="parallax contact" id="contact">
+  <div class="section-content">
+    <h2>Contact Me</h2>
+
+        <h2>Let’s make something awesome together!</h2>
+
+    <form id="contactForm" class="contact-grid">
+      <div class="form-group">
+        <label>Your Name*</label>
+        <input type="text" id="name" required>
+      </div>
+
+      <div class="form-group">
+        <label>Company Name</label>
+        <input type="text" id="company">
+      </div>
+
+      <div class="form-group">
+        <label>Email Address*</label>
+        <input type="email" id="email" required>
+      </div>
+
+      <div class="form-group">
+        <label>Phone Number*</label>
+        <input type="text" id="phone" required>
+      </div>
+
+      <div class="form-group full">
+        <label>A Few Words*</label>
+        <textarea id="message" required></textarea>
+      </div>
+
+      <button type="submit" class="send-btn">Send Message</button>
+    </form>
+      <p>    </p>
+      <p>Or Reach Me Out in My Socials!</p>
+      <div class="social-lottie">
+        <a href="https://www.instagram.com/cosmich._/" target="_blank">
+          <lottie-player src="icons/instagram.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+        </a>
+
+        <a href="https://www.facebook.com/michelle.lagasca.980" target="_blank">
+          <lottie-player src="icons/facebook.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+        </a>
+
+        <a href="https://www.linkedin.com/in/michelle-lorraine-lagasca-3b72bb36b/" target="_blank">
+          <lottie-player src="icons/linkedin.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+        </a>
+
+        <a href="https://github.com/Michelle-Lagasca" target="_blank">
+          <lottie-player src="icons/github.json" background="transparent" speed="1" hover loop autoplay></lottie-player>
+        </a>
+      </div>
+  </div>
+</section>
+    </div>
+  </main>
+  </div>
+
+<script>
+document.querySelectorAll('.nav a').forEach(anchor => {
+  anchor.addEventListener('click', function (e) {
+    e.preventDefault();
+    
+    const targetId = this.getAttribute('href').substring(1);
+    const target = document.getElementById(targetId);
+    const scrollArea = document.querySelector('.scroll-area');
+
+    if (!target) return;
+
+    // Check if scroll-area is actually scrollable on this screen size
+    const useScrollArea = scrollArea && scrollArea.scrollHeight > scrollArea.clientHeight;
+
+    if (useScrollArea) {
+      // Desktop behavior
+      const topPos = target.offsetTop;
+      scrollArea.scrollTo({
+        top: topPos,
+        behavior: 'smooth'
+      });
+    } else {
+      // Mobile behavior (page scroll)
+      const topPos = target.getBoundingClientRect().top + window.scrollY - 80; /* adjust for navbar */
+      window.scrollTo({
+        top: topPos,
+        behavior: 'smooth'
+      });
+    }
+  });
+});
+</script>
+
+  <script>
+  const popup = document.getElementById("popup");
+  const popupContent = document.getElementById("popup-content");
+  const closeBtn = document.querySelector(".close-popup");
+
+  document.querySelectorAll(".card").forEach(card => {
+    card.addition = "ease";
+    card.addEventListener("click", () => {
+      const cardType = card.getAttribute("data-card");
+
+      // Content for each card (edit this later with your text / images)
+    const content = {
+      card1: `
+        <h2>Self Introduction</h2>
+        <img src="images/introduction.jpg" class="about-img">
+        <p>I’m a 20-year-old Bachelor of Science in Information Technology student from Polytechnic University of the Philippines – Quezon City Branch (PUPQC). I’m passionate about technology, creativity, and continuous learning. I enjoy exploring how IT can be used to solve real-world problems and create meaningful digital experiences. This portfolio showcases my journey, projects, and the skills I’ve honed along the way.</p>
+      `,
+
+      card2: `
+        <h2>Life Outside Acads</h2>
+        <img src="images/org.jpg" class="about-img">
+        <p>Beyond academics, I’m actively involved in two major organizations that have shaped my leadership, creativity, and collaboration skills.
+
+        I am a proud member of the PUP Microsoft Student Community (PUPMSC), where I contribute to fostering a culture of innovation, technology, and empowerment among students. Through this organization, I’ve gained valuable experience in community engagement, strategic initiatives, and tech-driven advocacy.
+
+        At the same time, I serve as part of COMMITS (Commonwealth Information Technology Society), where I take part in organizing events, supporting student development, and strengthening connections within the IT community. Being involved in COMMITS allows me to apply my skills in teamwork, communication, and project coordination.
+
+        Together, these organizations continue to inspire me to lead with purpose, learn continuously, and grow both as a student and as a future IT professional.</p>
+      `,
+
+      card3: `
+        <h2>My Principles</h2>
+        <img src="images/core.jpg" class="about-img">
+        <p>I believe that growth begins with curiosity and perseverance. Every challenge is an opportunity to learn, improve, and make a difference.
+
+        I value integrity, because staying true to my values matters more than recognition. I uphold collaboration, knowing that great things are achieved when people work together with respect and shared purpose. And above all, I strive for excellence, not in perfection, but in the consistency of giving my best in everything I do.
+
+        As a student, leader, and individual, I aim to inspire others to move forward with purpose, kindness, and passion — the same way I continue to push myself toward growth and service.</p>
+      `
+};
+
+
+      popupContent.innerHTML = content[cardType];
+      popup.style.display = "flex";
+    });
+  });
+
+  closeBtn.addEventListener("click", () => popup.style.display = "none");
+  popup.addEventListener("click", (e) => {
+    if (e.target === popup) popup.style.display = "none";
+  });
+  </script>
+
+<script>
+document.querySelectorAll('.resume-toggle').forEach(toggle => {
+  toggle.addEventListener('click', () => {
+    const card = toggle.parentElement;
+    card.classList.toggle('open');
+  });
+});
+</script>
+<script>
+  document.addEventListener("DOMContentLoaded", () => {
+    const hamburger = document.getElementById('hamburger');
+    const sidebar = document.querySelector('.sidebar');
+    const overlay = document.getElementById('overlay');
+
+    if (!hamburger || !sidebar || !overlay) return; // safety check
+
+    hamburger.addEventListener('click', () => {
+      sidebar.classList.toggle('active');
+      overlay.classList.toggle('active');
+    });
+
+    overlay.addEventListener('click', () => {
+      sidebar.classList.remove('active');
+      overlay.classList.remove('active');
+    });
+  });
+</script>
+
+
+
+
+</body>
+</html>
