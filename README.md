@@ -1,39 +1,32 @@
-This is my personal portfolio website showcasing my skills, projects, education, and experiences as a UI/UX Designer & Front-End Developer. The website is fully responsive, interactive, and visually engaging with parallax sections, masonry galleries, popups, and animations.
+# Michelle Lagasca Portfolio
 
-It highlights:
+## About
+This is my personal portfolio website showcasing my skills as a UI/UX Designer and Front-End Developer. It features my projects, resume, and contact information.
 
-My personal introduction and core values
+## Technologies Used
+- HTML5
+- CSS3
+- JavaScript
+- Lottie Animations
+- Responsive Design (mobile & desktop)
+- Video & Image Integration
 
-Education, certifications, and organizational involvement
+## Features
+- Responsive sidebar with hamburger menu on mobile
+- Interactive About section with pop-up cards
+- Masonry-style Portfolio gallery
+- Resume section with download option
+- Contact form with social media links
+- Parallax scrolling and video backgrounds
 
-Selected projects in front-end development
+## How to Use
+1. Clone or download the repository.
+2. Open `index.html` in your browser to view the website.
+3. For development, edit HTML, CSS, and JS files as needed.
 
-Contact section with social links and email form
+## Links
+- Instagram: [@cosmich._](https://www.instagram.com/cosmich._/)
+- LinkedIn: [Michelle Lagasca](https://www.linkedin.com/in/michelle-lorraine-lagasca-3b72bb36b/)
+- GitHub: [Michelle-Lagasca](https://github.com/Michelle-Lagasca)
+- Email: lagasca.michelle04@gmail.com
 
-Features
-
-Responsive Layout: Works on desktop, tablet, and mobile devices
-
-Interactive Cards: Clickable cards in the "About" section for detailed info
-
-Masonry Gallery: Pinterest-style layout for portfolio images
-
-Resume Section: Includes education, leadership, projects, and certifications
-
-Video Backgrounds: Enhances the visual experience
-
-Sidebar Navigation: Sticky sidebar with social links and hamburger menu on mobile
-
-Contact Form: Users can send a message via email
-
-Technologies Used
-
-HTML5 & CSS3 – For structure and styling
-
-JavaScript – For interactive cards, popups, smooth scrolling, and hamburger menu
-
-Lottie Animations – For animated social icons
-
-Responsive Design – Mobile-first approach with media queries
-
-Multimedia – Videos and images to create engaging sections
